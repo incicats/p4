@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fri-Son | Programme 2026</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&display=swap');
+
+    :root {
+      --blue: #123fa8;
+      --blue-dark: #082c80;
+      --orange: #ff7948;
+      --font: 'Barlow Condensed', Impact, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      padding: 12px;
+      background: var(--blue);
+      color: var(--orange);
+      font-family: var(--font);
+    }
+
+    .poster {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 2px solid var(--orange);
+      background: var(--blue);
+    }
+
+    .logo {
+      font-size: 22px;
+    }
+
+    .lineup {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .cluster {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 150px;
+      padding: 24px 14px;
+      border: 1.5px solid var(--orange);
+      border-radius: 0;
+      background: transparent;
+      text-align: center;
+    }
+
+.artists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  line-height: 0.9;
+  text-align: center;
+}
+
+    .artist {
+      display: inline-block;
+      color: var(--orange);
+      font-size: clamp(28px, 6vw, 66px);
+      font-weight: 900;
+      line-height: 0.9;
+      letter-spacing: -1px;
+    }
+
+
+    .date {
+      align-self: center;
+      display: inline-block;
+      padding: 5px 28px;
+      background: var(--orange);
+      color: var(--blue-dark);
+      font-size: 14px;
+      font-weight: 900;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .cluster-label {
+      position: absolute;
+      right: 10px;
+      bottom: 6px;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    .opening {
+       float:right;
+      min-height: 190px;
+        width: 40%;
+
+    }
+
+     .openii {
+       float:left;
+      height: 150px;
+        width: 30%;
+
+    }
+
+         .openiii {
+       float:left;
+      height: 170px;
+         width: 30%;
+
+    }
+
+    .second {
+      min-height: 220px;
+    }
+
+    .third {
+      min-height: 150px;
+         width: 40%;
+        float: left;
+    }
+
+    .thirdd {
+      min-height: 150px;
+         width: 40%;
+        float:right;
+    }
+
+    .fourth {
+      min-height: 150px;
+         width: 30%;
+        float: left;
+    }
+
+   .fourthh {
+      min-height: 150px;
+        width: 50%;
+        float:right;
+    }
+
+    .fifth {
+      min-height: 190px;
+    }
+
+        .fifthh {
+      min-height: 150px;
+    }
+
+        .fifthhh {
+      min-height: 150px;
+    }
+
+    .footer {
+      margin-top: 20px;
+      padding-top: 15px;
+      border-top: 1px solid var(--orange);
+      text-align: center;
+      font-size: 18px;
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 500px) {
+      body {
+        padding: 5px;
+      }
+
+      .poster {
+        padding: 10px;
+      }
+
+
+      .cluster {
+        min-height: 140px;
+        padding: 20px 8px;
+      }
+
+      .opening,
+      .fifth {
+        min-height: 165px;
+      }
+
+      .second {
+        min-height: 180px;
+      }
+
+      .artists {
+        gap: 6px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="poster">
+
+    <section class="lineup" id="lineup">
+
+      <article class="cluster opening">
+        <div class="artists">
+          <span class="artist">SVANEBORG</span>
+          <span class="artist">KARDYB</span>
+          <span class="artist">+ LOUIS MATUTE</span>
+          <span class="artist">ENSEMBLE</span>
+        </div>
+      </article>
+
+       <article class="cluster openii">
+        <div class="artists">
+           <span class="artist">YAMÊ</span>
+        </div>
+      </article>
+
+        <article class="cluster openiii">
+        <div class="artists">
+          <span class="artist">SIVERT HØYEM</span>
+        </div>
+      </article>
+
+      <div class="date">FRI-SON</div>
+
+      <article class="cluster second">
+        <div class="artists">
+          <span class="artist">PAIN MAGAZINE</span>
+          <span class="artist">(LOUISAHHH x BIRDS</span>
+          <span class="artist">IN ROW x MAELSTROM)</span>
+
+        </div>
+      </article>
+
+    <div class="date">Novembre – Mars 2026</div>
+
+      <article class="cluster third">
+        <div class="artists">
+          <span class="artist">ORCHESTRA</span>
+          <span class="artist">BAOBAB</span>
+        </div>
+      </article>
+
+       <article class="cluster thirdd">
+        <div class="artists">
+          <span class="artist">UZI</span>
+          <span class="artist">FREYJA</span>
+        </div>
+      </article>
+
+      <article class="cluster fourth">
+        <div class="artists">
+          <span class="artist">L2B</span>
+        </div>
+      </article>
+
+       <article class="cluster fourthh">
+        <div class="artists">
+          <span class="artist">ASTEREOTYPIE</span>
+        </div>
+      </article>
+     <div class="date">WWW.FRI-SON.CH</div>
+
+      <article class="cluster fifth" id="artists">
+        <div class="artists">
+          <span class="artist">STEPHAN</span>
+          <span class="artist">EICHER</span>
+          <span class="artist">&amp; OSOMO</span>
+        </div>
+      </article>
+
+            <article class="cluster fifthh" id="artists">
+        <div class="artists">
+          <span class="artist">dEUS</span>
+        </div>
+      </article>
+
+            <article class="cluster fifthhh" id="artists">
+        <div class="artists">
+          <span class="artist">THE</span>
+          <span class="artist">YOUNG GODS</span>
+        </div>
+      </article>
+
+    </section>
+
+    <footer class="footer">
+      <a href="https://www.fri-son.ch/"> WWW.FRI-SON.CH
+      </a>
+    </footer>
+
+  </main>
+</body>
+</html>
